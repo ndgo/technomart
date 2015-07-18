@@ -923,3 +923,90 @@ input[type="search"]:active ~ label::before {
 }
 
 /* ВЕРСТА МЭЙН БЛОКА */
+.breadcrumbs {
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 22.5px;
+    font-size: 0;
+}
+
+.breadcrumbs::after {
+    position: absolute;
+    top: 1px;
+    left: -15px;
+    font-size: 16px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\1f3e0";
+    color: #c1c6ce;    
+}
+
+.breadcrumbs li {
+    position: relative;
+    display: inline-block;
+    margin-left: 39px;
+}
+
+.breadcrumbs li::before {
+    position: absolute;
+    top: 3px;
+    left: -22px;
+    font-size: 12px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\3e";
+    color: #c1c6ce;    
+}
+
+.catalog-title {
+    padding-top: 29.5px;
+    padding-bottom: 29.5px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    background-color: #f2f6f8;
+}
+
+/* ВЕРСТАЕМ ПАНЕЛЬ ФИЛЬТРОВ */
+
+.catalog-filter-column {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+
+
+.catalog-filter-column p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    background-color: #f7f3ec;
+    border-radius: 5px;
+}
+
+/* ВЕРСТАЕМ КАТАЛОГ ТОВАРОВ */
+
+.catalog-goods-column {
+    float: right;
+    width: 700px;
+    border-radius: 5px;
+}
+
+.catalog-options {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f7f3ec;
+}
