@@ -143,7 +143,7 @@ label {
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -569,4 +569,192 @@ input[type="radio"]:disabled + label {
 .catalog-options-variant:active {
     color: #ee3643;
     border-bottom-style: none;
+}
+/* СТИЛИ ДЛЯ ВЕРХНЕГО МЕНЮ */
+
+.header-upper-panel {
+    box-sizing: border-box;
+    min-height: 42px;
+    font-size: 0;
+    background-color: #293449;
+}
+
+.header-upper-panel a,
+.header-upper-panel form,
+.header-upper-search label,
+.header-upper-panel .header-upper-search {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-upper-logo {
+    min-width: 220px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 52px;
+    padding-right: 50px;
+    background-color: #ee3643;
+    box-shadow: #ca2c37 0px 5px 0px 0px;
+}
+
+.header-upper-logo:hover {
+    background-color: #ca2c37;
+    box-shadow: #9a212a 0px 5px 0px 0px;
+}
+
+.header-upper-logo:active {
+    background-color: #ba2732;
+    box-shadow: #8e1e26 0px 5px 0px 0px;
+}
+
+.header-upper-search input {
+    width: 221px;
+    height: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 49px;
+    outline: 0;
+    border: none;
+    background-color: #293449;
+    outline: none;
+    border: none;
+}
+
+.header-upper-search label {
+    position: relative;
+}
+
+.header-upper-search label::before {
+    position: absolute;
+    top: 12px;
+    left: -252px;
+    font-size: 17px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\1f50d";
+    cursor: pointer;
+    color: #6a7180;
+}
+
+input[type="search"]:hover ~ label::before {
+    color: #ffffff;
+}
+
+input[type="search"]:focus ~ label::before,
+input[type="search"]:active ~ label::before {
+    color: #ee3643;
+}
+
+.header-upper-search input:focus {
+    background-color: #ffffff;
+}
+
+.header-upper-cart,
+.header-upper-bookmark {
+    position: relative;
+    min-width: 150px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 44px;
+}
+
+.header-upper-bookmark::before {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    font-size: 17px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\1f516";
+    cursor: pointer;
+    color: #6a7180;
+}
+
+.header-upper-bookmark:hover::before {
+    color: #ffffff;
+}
+
+.header-upper-bookmark:active::before {
+    color: #a2a5a9;
+}
+
+.header-upper-cart::before {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    font-size: 17px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\62";
+    cursor: pointer;
+    color: #6a7180;
+}
+
+.header-upper-cart:hover::before {
+    color: #ffffff;
+}
+
+.header-upper-cart:active::before {
+    color: #a2a5a9;
+}
+
+.header-cart-full {
+    background-color: #ee3643;
+}
+
+.header-cart-full::before {
+    color: #f3737c;
+}
+
+.header-upper-cart.header-cart-full:active {
+    background-color: #ba2732;
+}
+
+/*
+.header-cart-full:active::before {
+    color: #b52933;
+}
+*/
+
+.header-upper-order {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 22px;
+    background-color: #63a63e;
+}
+
+.header-upper-cart:active,
+.header-upper-bookmark:active {
+    background-color: #161d29;
+}
+
+.header-upper-order:hover {
+    background-color: #5fbb2d;
+}
+
+.header-upper-order:active {
+    background-color: #518534;
 }
