@@ -40,6 +40,7 @@ ul {
 
 label {
     display: block;
+    cursor: pointer;
 }
 
 .clearfix::after {
@@ -527,6 +528,7 @@ label {
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 input[type="checkbox"]:disabled + label,
@@ -731,12 +733,6 @@ input[type="search"]:active ~ label::before {
 .header-upper-cart.header-cart-full:active {
     background-color: #ba2732;
 }
-
-/*
-.header-cart-full:active::before {
-    color: #b52933;
-}
-*/
 
 .header-upper-order {
     padding-top: 12px;
