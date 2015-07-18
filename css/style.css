@@ -221,6 +221,7 @@ label {
 .slider-btn,
 .service-btn,
 .popular-btn,
+.feedback-btn,
 .offer-item-info,
 .catalog-item-buy,
 .company-about-btn,
@@ -368,4 +369,95 @@ label {
 .footer-bottom-feedback a:active {
     text-decoration: none;
     opacity: .5;
+}
+
+.feedback-data {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.feedback-cancel {
+    color: #000000;
+}
+
+.feedback input,
+.feedback textarea {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.feedback input::-webkit-input-placeholder,
+.feedback textarea::-webkit-input-placeholder {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.feedback input::-moz-placeholder,
+.feedback textarea::-moz-placeholder {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.feedback input:-moz-placeholder,
+.feedback textarea:-moz-placeholder {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.feedback input:-ms-input-placeholder,
+.feedback textarea:-ms-input-placeholder {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.catalog-item-model,
+.catalog-item-price,
+.catalog-item-vendor {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.catalog-item-price {
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.catalog-item-discount {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.company-promo-info,
+.service-title-info,
+.service-details-info,
+.company-contacts-info {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
 }
