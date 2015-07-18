@@ -209,10 +209,6 @@ label {
     color: #ffffff;
 }
 
-.header-bottom-panel a:active {
-    opacity: .5;
-}
-
 .offer-item-type {
     font-family: 'Cuprum', sans-serif;
     font-size: 24px;
@@ -891,4 +887,32 @@ input[type="search"]:active ~ label::before {
 
 .header-block-links a:first-child::before {
     display: none;
+}
+
+/* СТИЛИ ДЛЯ НИЖНЕГО МЕНЮ */
+
+.header-bottom-panel {
+    padding-left: 21px;
+    font-size: 0;
+    background-color: #32425c;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #293449;
+}
+
+.header-bottom-panel a {
+    display: inline-block;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.header-bottom-panel a:hover {
+    background-color: #293449;
+}
+
+.header-bottom-panel a:active {
+    color: #868c95;
+    background-color: #293449;
 }
