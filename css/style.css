@@ -372,8 +372,8 @@ label {
 
 .footer-bottom-design a:active,
 .footer-bottom-feedback a:active {
+    color: #ee3643;
     text-decoration: none;
-    opacity: .5;
 }
 
 .feedback-data {
