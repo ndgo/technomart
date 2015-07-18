@@ -487,8 +487,7 @@ label {
 }
 
 .header-links-element:active {
-    opacity: 0.3;
-    color: #999999;
+    color: #b7bfc8;
 }
 
 .breadcrumbs a,
@@ -574,9 +573,14 @@ input[type="radio"]:disabled + label {
 }
 /* СТИЛИ ДЛЯ ВЕРХНЕГО МЕНЮ */
 
+header {
+    background-color: #f2f6f8;
+}
+
 .header-upper-panel {
     box-sizing: border-box;
     min-height: 42px;
+    margin-bottom: 47px;
     font-size: 0;
     background-color: #293449;
 }
@@ -753,4 +757,138 @@ input[type="search"]:active ~ label::before {
 
 .header-upper-order:active {
     background-color: #518534;
+}
+/* СТИЛИ ДЛЯ СРЕДНЕГО МЕНЮ */
+
+.header-middle-about {
+    float: left;
+    width: 200px;
+    white-space: pre-line;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.header-middle-contacts {
+    float: left;
+    width: 270px;
+}
+
+.header-middle-user {
+    float: right;
+    width: 300px;
+}
+
+.header-contacts-telephone {
+    position: relative;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 70px;
+    padding-right: 42px;
+    margin-bottom: 5px;
+    border: 3px solid #ffffff;
+}
+
+.header-contacts-telephone::before {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    font-size: 18px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\1f4de";
+    color: #b7bfc8;
+}
+
+.header-contacts-address {
+    text-align: center;
+}
+
+.header-block-user {
+    position: relative;
+    display: block;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 45px;    
+    background-color: #ffffff;
+}
+
+.header-block-user::before {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    font-size: 18px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\1f468";
+    color: #c5c5c5;
+}
+
+.header-block-user::after {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    font-size: 20px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\241b";
+    color: #c5c5c5;
+}
+
+.header-block-user:hover::after,
+.header-block-user:hover::before {
+    color: #000000;
+}
+
+.header-block-user:active::after,
+.header-block-user:active::before {
+    color: #b2b2b2;
+}
+
+.header-block-links {
+    padding-top: 9px;
+    font-size: 0;
+}
+
+.header-block-links a {
+    position: relative;
+    display: inline-block;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.header-block-links .header-links-element::before {
+    opacity: 1;
+    position: absolute;
+    top: 7px;
+    left: -16px;
+    width: 5px;
+    height: 5px;
+    background-color: #32425c;
+    border-radius: 50%;
+    content:"";
+}
+
+.header-block-links a:first-child::before {
+    display: none;
 }
