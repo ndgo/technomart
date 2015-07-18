@@ -570,6 +570,8 @@ input[type="radio"]:disabled + label {
 /* СТИЛИ ДЛЯ ВЕРХНЕГО МЕНЮ */
 
 header {
+    padding-bottom: 60px;
+    margin-bottom: 22.5px;
     background-color: #f2f6f8;
 }
 
@@ -919,3 +921,5 @@ input[type="search"]:active ~ label::before {
     color: #868c95;
     background-color: #293449;
 }
+
+/* ВЕРСТА МЭЙН БЛОКА */
