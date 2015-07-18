@@ -163,6 +163,7 @@ label {
 }
 
 .header-user-login,
+.header-block-user,
 .header-user-registration,
 .header-contacts-telephone {
     font-family: 'Cuprum', sans-serif;
@@ -181,6 +182,7 @@ label {
 }
 
 .header-user-login,
+.header-block-user,
 .header-user-registration {
     color: #000000;
     text-decoration: none;
@@ -192,6 +194,7 @@ label {
 }
 
 .header-user-login:active,
+.header-block-user:active,
 .header-user-registration:active {
     color: #b2b2b2;
 }
@@ -206,7 +209,7 @@ label {
 }
 
 .header-bottom-panel a:active {
-    color: #8e939c;
+    opacity: .5;
 }
 
 .offer-item-type {
@@ -219,6 +222,7 @@ label {
 }
 
 .slider-btn,
+.filter-btn,
 .service-btn,
 .popular-btn,
 .feedback-btn,
@@ -259,6 +263,7 @@ label {
 
 .popular-text,
 .service-title,
+.catalog-title,
 .company-promo-title,
 .company-contacts-title {
     font-family: 'Cuprum', sans-serif;
@@ -379,6 +384,7 @@ label {
     color: #000000;
 }
 
+.filter-btn,
 .feedback-cancel {
     color: #000000;
 }
@@ -451,6 +457,7 @@ label {
     color: #ffffff;
 }
 
+.perforators-about,
 .company-promo-info,
 .service-title-info,
 .service-details-info,
@@ -460,4 +467,106 @@ label {
     line-height: 24px;
     font-weight: 400;
     color: #000000;
+}
+
+.header-links-element {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #32425c;
+}
+
+.header-links-element:hover {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ee3643;
+}
+
+.header-links-element:active {
+    opacity: 0.3;
+    color: #999999;
+}
+
+.breadcrumbs a,
+.breadcrumbs span,
+.catalog-options p,
+.catalog-paginator a,
+.catalog-paginator span,
+.catalog-filter-column p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.catalog-filter-column h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.catalog-paginator span {
+    color: #ffffff;
+}
+
+.catalog-filter-column label {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+input[type="checkbox"]:disabled + label,
+input[type="radio"]:disabled + label {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #999999;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.catalog-filter-column input[type="text"] {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.catalog-options-variant {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #c9c9c9;
+    border-bottom-style: dotted;
+    border-bottom-color: #ee3643;
+    border-bottom-width: thin;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.catalog-options-variant:hover {
+    color: #000000;
+    border-bottom-style: solid;
+}
+
+.catalog-options-variant:active {
+    color: #ee3643;
+    border-bottom-style: none;
 }
