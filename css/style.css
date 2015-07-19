@@ -1211,7 +1211,7 @@ input[type="search"]:active ~ label::before {
 }
 
 .catalog-filter-column input[type="radio"],
-.catalog-filter-column input[type="checkbox"]{
+.catalog-filter-column input[type="checkbox"] {
     display: none;
 }
 
@@ -1222,8 +1222,7 @@ input[type="search"]:active ~ label::before {
 }
 
 input[type="radio"] + label::before,
-input[type="checkbox"] + label::before
-{
+input[type="checkbox"] + label::before {
     position: absolute;
     top: 0;
     left: -35px;
@@ -1254,7 +1253,7 @@ input[type="checkbox"]:checked + label::before {
 }
 
 input[type="radio"] + label:hover::before,
-input[type="checkbox"] + label:hover::before{
+input[type="checkbox"] + label:hover::before {
     color: #b5b5b5;
 }
 
@@ -1291,3 +1290,4 @@ input[type="checkbox"] ~ h3 {
 .filter-btn:active {
     border-color: #ee3643;
 }
+/* СТИЛИ ДЛЯ ОСНОВНОГО КАТАЛОГА ТОВАРОВ */
