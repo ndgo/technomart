@@ -1509,3 +1509,13 @@ input[type="checkbox"] ~ h3 {
     border: 1px solid #ee3643;
     background-color: #ee3643;
 }
+
+.perforators {
+    padding-top: 68px;
+    padding-bottom: 68px;
+    background-color: #f2f6f8;
+}
+
+.perforators-title {
+    margin-bottom: 34px;
+}
