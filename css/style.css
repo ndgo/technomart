@@ -1313,7 +1313,7 @@ input[type="checkbox"] ~ h3 {
 }
 
 .new-item::before,
-.catalog-item-buttons::before {
+.new-item .catalog-item-buttons::before {
     position: absolute;
     display: inline-block;
     vertical-align: top;
