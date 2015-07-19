@@ -1011,7 +1011,6 @@ input[type="search"]:active ~ label::before {
 .catalog-goods-column {
     float: right;
     width: 700px;
-    border-radius: 5px;
 }
 
 .catalog-options {
@@ -1019,6 +1018,7 @@ input[type="search"]:active ~ label::before {
     padding-bottom: 10px;
     font-size: 0;
     background-color: #f7f3ec;
+    border-radius: 5px;
 }
 
 .catalog-options-variant {
