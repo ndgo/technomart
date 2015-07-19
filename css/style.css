@@ -440,7 +440,6 @@ label {
     color: #000000;
 }
 
-
 .catalog-item-price,
 .catalog-item-discount {
     font-family: 'PT Sans', sans-serif;
@@ -1016,6 +1015,7 @@ input[type="search"]:active ~ label::before {
 .catalog-options {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 0;
     background-color: #f7f3ec;
     border-radius: 5px;
@@ -1292,3 +1292,178 @@ input[type="checkbox"] ~ h3 {
     border-color: #ee3643;
 }
 /* СТИЛИ ДЛЯ ОСНОВНОГО КАТАЛОГА ТОВАРОВ */
+
+.catalog-block {
+    font-size: 0;
+}
+
+.catalog-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 220px;
+    min-height: 318px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.new-item::before,
+.catalog-item-buttons::before {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 25px;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+    top: 10px;
+    right: -30px;
+    color: white;
+    content: "new";
+    background-color: #ee3643;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.catalog-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.catalog-item-image {
+    margin-bottom: 12px;
+}
+
+.catalog-item-model,
+.catalog-item-price,
+.catalog-item-vendor,
+.catalog-item-discount {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.catalog-item-model {
+    margin-bottom: 16.5px;
+}
+
+.catalog-item-price {
+    margin-bottom: 12.5px;
+}
+
+.catalog-item-discount {
+    position: relative;
+    width: 122px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: #ee3643;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.catalog-item-discount::after {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 19px 0 19px 20px;
+    border-color: transparent transparent transparent #ee3643;
+    content: "";
+}
+
+.catalog-item-model + .catalog-item-discount {
+    margin-top: 47px;
+}
+
+.catalog-item-buttons {
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 218px;
+    min-height: 175px;
+    padding-top: 45px;
+    background-color: #ffffff;
+}
+
+.catalog-item:hover {
+    box-shadow: 0 10px 25px rgba(41, 52, 73, .5)    
+}
+
+.catalog-item:hover .catalog-item-buttons {
+    display: block;
+}
+
+.catalog-item-buy {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 135px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #63a63e;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    box-shadow: inset 0px -3px 0px 0px rgba(54,115,21,1);
+}
+
+.catalog-item-buy::before {
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    font-size: 18px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\62";
+    color: #92c178;
+}
+
+.catalog-item-buy:hover::before,
+.catalog-item-buy:active::before{
+    color: #ffffff;
+}
+
+.catalog-item-buy:hover {
+    background-color: #5fbb2d;
+}
+
+.catalog-item-buy:active {
+    background-color: #518534;
+    box-shadow: none;
+}
+
+.catalog-item-bookmark {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 129px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    border: solid 3px #63a63e;
+}
+
+.catalog-item-bookmark:hover {
+    border-color: #32425c;
+}
+
+.catalog-item-bookmark:active {
+    border-color: #32425c;
+}
+
