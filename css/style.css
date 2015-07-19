@@ -432,7 +432,6 @@ label {
 }
 
 .catalog-item-model,
-.catalog-item-price,
 .catalog-item-vendor {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
@@ -441,17 +440,19 @@ label {
     color: #000000;
 }
 
-.catalog-item-price {
-    color: #999999;
-    text-decoration: line-through;
-}
 
+.catalog-item-price,
 .catalog-item-discount {
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
     line-height: 18px;
     font-weight: 700;
     color: #ffffff;
+}
+
+.catalog-item-price {
+    color: #999999;
+    text-decoration: line-through;
 }
 
 .perforators-about,
