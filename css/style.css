@@ -1397,7 +1397,7 @@ input[type="checkbox"] ~ h3 {
 }
 
 .catalog-item:hover {
-    box-shadow: 0 10px 25px rgba(41, 52, 73, .5)    
+    box-shadow: 0 10px 25px rgba(41, 52, 73, .5)
 }
 
 .catalog-item:hover .catalog-item-buttons {
@@ -1415,7 +1415,7 @@ input[type="checkbox"] ~ h3 {
     background-color: #63a63e;
     margin-bottom: 7px;
     border-radius: 5px;
-    box-shadow: inset 0px -3px 0px 0px rgba(54,115,21,1);
+    box-shadow: inset 0px -3px 0px 0px rgba(54, 115, 21, 1);
 }
 
 .catalog-item-buy::before {
@@ -1437,7 +1437,7 @@ input[type="checkbox"] ~ h3 {
 }
 
 .catalog-item-buy:hover::before,
-.catalog-item-buy:active::before{
+.catalog-item-buy:active::before {
     color: #ffffff;
 }
 
@@ -1468,7 +1468,6 @@ input[type="checkbox"] ~ h3 {
 .catalog-item-bookmark:active {
     border-color: #32425c;
 }
-
 /* ПАГИНАТОР */
 
 .catalog-paginator {
@@ -1502,7 +1501,7 @@ input[type="checkbox"] ~ h3 {
 
 .catalog-paginator .catalog-paginator-next {
     padding-left: 31px;
-    padding-right: 31px;    
+    padding-right: 31px;
 }
 
 .catalog-paginator .catalog-paginator-active {
@@ -1518,4 +1517,156 @@ input[type="checkbox"] ~ h3 {
 
 .perforators-title {
     margin-bottom: 34px;
+}
+/* ФУТЕР */
+
+footer {
+    background-color: #32425c;
+}
+
+.footer-upper-panel {
+    min-height: 63px;
+    margin-bottom: 29px;
+}
+
+.footer-panel-logo {
+    float: left;
+    width: 220px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    text-align: center;
+    background-color: #ee3643;
+    box-shadow: #ca2c37 0px 5px 0px 0px;
+}
+
+.footer-panel-logo:hover {
+    background-color: #ca2c37;
+    box-shadow: #9a212a 0px 5px 0px 0px;
+}
+
+.footer-panel-logo:active {
+    background-color: #ba2732;
+    box-shadow: #8e1e26 0px 5px 0px 0px;
+}
+
+.footer-panel-contacts {
+    float: right;
+    width: 570px;
+    font-size: 0;
+}
+
+.footer-panel-contacts li {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 39px;
+    margin-right: 63px;
+}
+
+.footer-panel-contacts li:last-child {
+    margin-right: 0;
+}
+
+.footer-middle-panel {
+    margin-bottom: 50px;
+}
+
+.footer-panel-address {
+    float: left;
+    width: 350px;
+}
+
+.footer-panel-offer {
+    float: right;
+    width: 560px;
+    font-size: 0;
+}
+
+.footer-panel-offer li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 65px;
+}
+
+.footer-panel-offer li:last-child {
+    margin-right: 0;
+}
+
+.footer-bottom-panel {
+    padding-top: 38px;
+    padding-bottom: 35px;
+    background-color: #293449;
+}
+
+.footer-bottom-copyright {
+    float: left;
+    width: 240px;
+    margin-right: 160px;
+}
+
+.footer-bottom-social {
+    float: left;
+    width: 135px;
+    margin-right: 117px;
+    min-height: 40px;
+    font-size: 0;
+}
+
+.footer-social-btn {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 42px;
+    height: 42px;
+    margin-right: 4px;
+    border-radius: 50%;
+    background-color: #212a3a;
+}
+
+.footer-social-btn:last-child {
+    margin-right: 0;
+}
+
+.footer-social-btn::before {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\76";
+    color: #ffffff;
+}
+
+.footer-social-fb::before {
+    content: "\66";
+    top: 10px;
+    left: 15px;
+}
+
+.footer-social-inst::before {
+    content: "\1f4f7";
+    top: 10px;
+    left: 15px;
+}
+
+.footer-social-btn:hover,
+.footer-social-btn:active {
+    background-color: #ee3643;
+}
+
+.footer-bottom-design {
+    float: right;
+    width: 110px;
+}
+
+.footer-bottom-feedback {
+    float: left;
+    width: 140px;
 }
