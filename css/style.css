@@ -1261,3 +1261,33 @@ input[type="checkbox"] + label:hover::before{
 input[type="radio"]:disabled + label::before {
     color: #e9e9e9;
 }
+
+input[type="checkbox"] ~ h3 {
+    padding-top: 19.5px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #e5e5e5;
+}
+
+.filter-btn {
+    padding-top: 11.5px;
+    padding-bottom: 10.5px;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-top: 81.5px;
+    border-radius: 5px;
+    border-color: #e5e5e5;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    border-color: #bdc6ca;
+}
+
+.filter-btn:active {
+    border-color: #ee3643;
+}
