@@ -1469,3 +1469,43 @@ input[type="checkbox"] ~ h3 {
     border-color: #32425c;
 }
 
+/* ПАГИНАТОР */
+
+.catalog-paginator {
+    font-size: 0;
+    margin-bottom: 60px;
+}
+
+.catalog-paginator a,
+.catalog-paginator span {
+    display: inline-block;
+}
+
+.catalog-paginator a,
+.catalog-paginator span {
+    padding-top: 11.5px;
+    padding-bottom: 12.5px;
+    padding-left: 17px;
+    padding-right: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
+
+.catalog-paginator a:hover {
+    border-color: #bdc6ca;
+}
+
+.catalog-paginator a:active {
+    border-color: #ee3643;
+}
+
+.catalog-paginator .catalog-paginator-next {
+    padding-left: 31px;
+    padding-right: 31px;    
+}
+
+.catalog-paginator .catalog-paginator-active {
+    border: 1px solid #ee3643;
+    background-color: #ee3643;
+}
