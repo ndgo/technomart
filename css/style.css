@@ -639,6 +639,7 @@ header {
     font-weight: normal;
     speak: none;
     display: inline-block;
+    vertical-align: top;
     text-decoration: inherit;
     text-align: center;
     font-variant: normal;
@@ -680,6 +681,7 @@ input[type="search"]:active ~ label::before {
     font-weight: normal;
     speak: none;
     display: inline-block;
+    vertical-align: top;
     text-decoration: inherit;
     text-align: center;
     font-variant: normal;
@@ -707,6 +709,7 @@ input[type="search"]:active ~ label::before {
     font-weight: normal;
     speak: none;
     display: inline-block;
+    vertical-align: top;
     text-decoration: inherit;
     text-align: center;
     font-variant: normal;
@@ -799,6 +802,7 @@ input[type="search"]:active ~ label::before {
     font-weight: normal;
     speak: none;
     display: inline-block;
+    vertical-align: top;
     text-decoration: inherit;
     text-align: center;
     font-variant: normal;
@@ -830,6 +834,7 @@ input[type="search"]:active ~ label::before {
     font-weight: normal;
     speak: none;
     display: inline-block;
+    vertical-align: top;
     text-decoration: inherit;
     text-align: center;
     font-variant: normal;
@@ -848,6 +853,7 @@ input[type="search"]:active ~ label::before {
     font-weight: normal;
     speak: none;
     display: inline-block;
+    vertical-align: top;
     text-decoration: inherit;
     text-align: center;
     font-variant: normal;
@@ -874,6 +880,7 @@ input[type="search"]:active ~ label::before {
 .header-block-links a {
     position: relative;
     display: inline-block;
+    vertical-align: top;
     margin-left: 16px;
     margin-right: 16px;
 }
@@ -907,6 +914,7 @@ input[type="search"]:active ~ label::before {
 
 .header-bottom-panel a {
     display: inline-block;
+    vertical-align: top;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 31px;
@@ -945,7 +953,8 @@ input[type="search"]:active ~ label::before {
     font-variant: normal;
     text-transform: none;
     content: "\1f3e0";
-    color: #c1c6ce;    
+    color: #c1c6ce;
+    cursor: pointer;
 }
 
 .breadcrumbs li {
@@ -1008,5 +1017,11 @@ input[type="search"]:active ~ label::before {
 .catalog-options {
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 0;
     background-color: #f7f3ec;
+}
+
+.catalog-options-variant {
+    display: inline-block;
+    vertical-align: top;
 }
