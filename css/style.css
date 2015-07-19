@@ -1137,6 +1137,11 @@ input[type="search"]:active ~ label::before {
 
 .catalog-range-filter {
     font-size: 0;
+    padding-bottom: 25px;
+    margin-bottom: 18.5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #e5e5e5;
 }
 
 .catalog-filter-scale {
@@ -1199,4 +1204,60 @@ input[type="search"]:active ~ label::before {
 .catalog-range-filter span,
 .catalog-max-price {
     margin-left: 8px;
+}
+
+.catalog-filter-title + label {
+    margin-top: 18px;
+}
+
+.catalog-filter-column input[type="radio"],
+.catalog-filter-column input[type="checkbox"]{
+    display: none;
+}
+
+.catalog-filter-column label {
+    position: relative;
+    margin-left: 35px;
+    margin-bottom: 24px;
+}
+
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before
+{
+    position: absolute;
+    top: 0;
+    left: -35px;
+    font-size: 20px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\25cb";
+    color: #c1c1c1;
+}
+
+input[type="checkbox"] + label::before {
+    content: "\2610";
+}
+
+input[type="radio"]:checked + label::before {
+    content: "\25cf";
+}
+
+input[type="checkbox"]:checked + label::before {
+    content: "\2611";
+}
+
+input[type="radio"] + label:hover::before,
+input[type="checkbox"] + label:hover::before{
+    color: #b5b5b5;
+}
+
+input[type="radio"]:disabled + label::before {
+    color: #e9e9e9;
 }
