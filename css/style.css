@@ -1021,7 +1021,100 @@ input[type="search"]:active ~ label::before {
     border-radius: 5px;
 }
 
-.catalog-options-variant {
+.catalog-options span {
+    float: left;
+    width: 100px;
+    padding-left: 20px;
+}
+
+.catalog-options .catalog-options-parameters {
+    float: right;
+    width: 480px;
+}
+
+.catalog-options-parameters a,
+.catalog-options-parameters label {
     display: inline-block;
     vertical-align: top;
+}
+
+.catalog-options-price {
+    margin-right: 70px;
+}
+
+.catalog-options-type {
+    margin-right: 65px;
+}
+
+.catalog-options-functions + label {
+    margin-left: 45px;
+}
+
+.catalog-up-arrow {
+    position: relative;
+    margin-left: 20px;
+}
+
+.catalog-down-arrow {
+    position: relative;
+    margin-right: 15px;
+}
+
+.catalog-options-active {
+    color: #ee3643;
+    border-bottom: none;
+}
+
+.catalog-options-active:hover {
+    color: #ee3643;
+    border-bottom: none;
+}
+
+.catalog-up-arrow::before {
+    position: absolute;
+    top: -7px;
+    left: 0;
+    font-size: 30px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\25b2";
+    color: #c6c2bd;    
+}
+
+.catalog-up-arrow:hover::before {
+    color: #000000;
+}
+
+.catalog-down-arrow::before {
+    position: absolute;
+    top: -7px;
+    left: 40px;
+    font-size: 30px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\25bc";
+    color: #c6c2bd;    
+}
+
+.catalog-down-arrow:hover::before {
+    color: #000000;
+}
+.catalog-options-active::before,
+.catalog-up-arrow:active::before,
+.catalog-down-arrow:active::before {
+    color: #ee3643;
 }
