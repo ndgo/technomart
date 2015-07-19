@@ -1296,6 +1296,7 @@ input[type="checkbox"] ~ h3 {
 
 .catalog-block {
     font-size: 0;
+    margin-bottom: 32px;
 }
 
 .catalog-item {
