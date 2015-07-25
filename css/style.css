@@ -2000,3 +2000,71 @@ textarea:focus,
 .map-close:active:after {
     background-color: #ba2732;
 }
+
+.header-user-login,
+.header-user-registration {
+    display: inline-block;
+}
+
+.header-user-login {
+    position: relative;
+    padding-top: 14px;
+    padding-bottom: 15px;    
+    padding-left: 48px;
+    padding-right: 27px;
+    background-color: #ffffff;
+}
+
+.header-middle-user {
+    font-size: 0;
+}
+
+.header-middle-user a:last-child {
+    margin-right: 0;
+}
+
+.header-user-login:before {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    font-size: 20px;
+    font-family: "symbols-technomart";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    content: "\241b";
+    color: #c5c5c5;    
+}
+
+.header-user-login:hover:before {
+    color: #ee3643;
+}
+
+.header-user-login:active:before {
+    color: #c5c5c5;
+}
+
+.header-user-registration {
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #ffffff;
+}
+
+.header-user-login {
+    margin-right: 10px;
+}
+
+.header-user-connected {
+    width: 285px;
+}
+
+/* ВЕРСТКА БЛОКА ПРЕДЛОЖЕНИЙ */
+
