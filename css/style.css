@@ -2009,7 +2009,7 @@ textarea:focus,
 .header-user-login {
     position: relative;
     padding-top: 14px;
-    padding-bottom: 15px;    
+    padding-bottom: 15px;
     padding-left: 48px;
     padding-right: 27px;
     background-color: #ffffff;
@@ -2039,7 +2039,7 @@ textarea:focus,
     font-variant: normal;
     text-transform: none;
     content: "\241b";
-    color: #c5c5c5;    
+    color: #c5c5c5;
 }
 
 .header-user-login:hover:before {
@@ -2065,6 +2065,127 @@ textarea:focus,
 .header-user-connected {
     width: 285px;
 }
-
 /* ВЕРСТКА БЛОКА ПРЕДЛОЖЕНИЙ */
 
+.header-main {
+    margin-bottom: 59px;
+}
+
+.offer {
+    font-size: 0;
+}
+
+.offer .offer-item {
+    display: inline-block;
+}
+
+.offer-item {
+    position: relative;
+    width: 277px;
+    min-height: 101px;
+    padding-top: 23px;
+    padding-left: 23px;
+    overflow: hidden;
+}
+
+.offer .offer-item {
+    margin-right: 20px;
+}
+
+.offer .offer-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.offer-item-type {
+    margin-bottom: 15px;
+}
+
+.offer-item-info {
+    display: block;
+    text-align: center;
+    width: 135px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.offer-item-info:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.offer-item-info:active {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.offer-material {
+    background-color: #f6b22d;
+}
+
+.offer-material:after {
+    position: absolute;
+    top: 31px;
+    left: 213px;
+    width: 45px;
+    height: 65px;
+    background: -39px -31px url('../img/sprites.png') no-repeat;
+    content: "";
+}
+
+.offer-tool {
+    background-color: #4aafde;
+}
+
+.offer-tool:after {
+    position: absolute;
+    top: 31px;
+    left: 198px;
+    width: 76px;
+    height: 65px;
+    background: -24px -153px url('../img/sprites.png') no-repeat;
+    content: "";
+}
+
+.offer-equipment {
+    background-color: #85d179;
+}
+
+.offer-equipment:after {
+    position: absolute;
+    top: 31px;
+    left: 190px;
+    width: 80px;
+    height: 65px;
+    background: -22px -275px url('../img/sprites.png') no-repeat;
+    content: "";
+}
+
+.offer-discount {
+    background-color: #cc79d1;
+}
+
+.offer-discount:after {
+    position: absolute;
+    top: 31px;
+    left: 195px;
+    width: 60px;
+    height: 75px;
+    background: -32px -394px url('../img/sprites.png') no-repeat;
+    content: "";   
+}
+
+.offer-delivery {
+    background-color: #f6b22d;
+}
+
+.offer-delivery:after {
+    position: absolute;
+    top: 31px;
+    left: 190px;
+    width: 80px;
+    height: 65px;
+    background: -23px -522px url('../img/sprites.png') no-repeat;
+    content: "";   
+}
+
+/* СЛАЙДЕР */ 
