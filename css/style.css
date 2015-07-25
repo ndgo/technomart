@@ -392,8 +392,7 @@ label {
 
 .filter-btn,
 .feedback-cancel,
-.cart-cancel-btn
-{
+.cart-cancel-btn {
     color: #000000;
 }
 
@@ -1692,7 +1691,7 @@ footer {
     margin: 0 auto;
     background-color: #ffffff;
     border-top: solid 7px #ee3643;
-    box-shadow: 0 10px 25px rgba(41, 52, 73, .5)
+    box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
 }
 
 .cart-notification-close {
@@ -1776,7 +1775,7 @@ footer {
 .cart-order-btn {
     padding-left: 59px;
     padding-right: 62px;
-    background-color: #ee3643;    
+    background-color: #ee3643;
 }
 
 .cart-order-btn:hover {
@@ -1791,4 +1790,108 @@ footer {
     padding-left: 44px;
     padding-right: 48px;
     background-color: #ffffff;
+}
+
+.feedback {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 460px;
+    padding-top: 48px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto;
+    border-top: solid 7px #ee3643;
+    box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
+    background-color: #ffffff;
+}
+
+.feedback-close {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.feedback-close:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29px;
+    height: 5px;
+    transform: rotate(-45deg);
+    background: #ee3643;
+    font-size: 40px;
+    font-weight: 400;
+    content: "";
+}
+
+.feedback-close:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29px;
+    height: 5px;
+    transform: rotate(45deg);
+    background: #ee3643;
+    font-size: 40px;
+    font-weight: 400;
+    content: "";
+}
+
+.feedback-close:hover:before,
+.feedback-close:hover:after {
+    background-color: #ca2c37;
+}
+
+.feedback-close:active:before,
+.feedback-close:active:after {
+    background-color: #ba2732;
+}
+
+.feedback-left-column {
+    float: left;
+    width: 220px;
+}
+
+.feedback-right-column {
+    float: right;
+    width: 220px;
+}
+
+.feedback-block {
+    margin-bottom: 22px;
+}
+
+.feedback-data,
+.feedback-block label {
+    margin-bottom: 13px;
+}
+
+.feedback-block input {
+    width: 202px;
+    padding-top: 9.5px;
+    padding-bottom: 7.5px;
+    padding-left: 14px;
+    border: 2px solid #d7dcde;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 440px;
+    height: 98.5px;
+    padding-top: 9.5px;
+    padding-left: 14px;
+    border: 2px solid #d7dcde;
+    border-radius: 5px;
+    overflow: auto;
+    resize: none;
+}
+
+textarea:focus,
+.feedback-block input:focus {
+    outline: none;
+}
+
+.feedback-block-buttons {
+    background-color: #f1f1f1;
 }

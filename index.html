@@ -319,20 +319,23 @@
         <img src="img/map.jpg" width="940" height="445" alt="Мы на карте">
     </figure>
     <div class="feedback container">
+        <a href="#" class="feedback-close"></a>
         <form action="/feedback" method="post">
-            <div class="feedback-block">
-                <div class="feedback-left-column">
-                    <label class="feedback-data" for="feedback-login">Ваше имя:</label>
-                    <input type="text" name="login" id="feedback-login" placeholder="Представьтесь, пожалуйста">
+            <div class="feedback-userdata">
+                <div class="feedback-block clearfix">
+                    <div class="feedback-left-column">
+                        <label class="feedback-data" for="feedback-login">Ваше имя:</label>
+                        <input type="text" name="login" id="feedback-login" placeholder="Представьтесь, пожалуйста">
+                    </div>
+                    <div class="feedback-right-column">
+                        <label class="feedback-data" for="feedback-email">Ваш e-mail:</label>
+                        <input type="email" name="email" id="feedback-email" placeholder="Для отправки ответа" required>
+                    </div>
                 </div>
-                <div class="feedback-right-column">
-                    <label class="feedback-data" for="feedback-email">Ваш e-mail:</label>
-                    <input type="email" name="email" id="feedback-email" placeholder="Для отправки ответа" required>
-                </div>
+                <label class="feedback-data" for="feedback-textarea">Текст письма:</label>
+                <textarea name="text" id="feedback-textarea" placeholder="В свободной форме" required rows="5"></textarea>
             </div>
-            <label class="feedback-data" for="feedback-textarea">Текст письма:</label>
-            <textarea name="text" id="feedback-textarea" placeholder="В свободной форме" required></textarea>
-            <div class="feedback-block">
+            <div class="feedback-block-buttons">
                 <button type="submit" class="feedback-btn">Отправить</button>
                 <a href="#" class="feedback-btn feedback-cancel">Отмена</a>
             </div>
