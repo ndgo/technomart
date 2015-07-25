@@ -1684,12 +1684,13 @@ footer {
 
 .cart-notification {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 50px;
     width: 620px;
     padding-top: 68px;
-    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 350px;
     background-color: #ffffff;
     border-top: solid 7px #ee3643;
     box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
