@@ -223,6 +223,8 @@ label {
 .service-btn,
 .popular-btn,
 .feedback-btn,
+.cart-order-btn,
+.cart-cancel-btn,
 .offer-item-info,
 .catalog-item-buy,
 .company-about-btn,
@@ -263,13 +265,19 @@ label {
 .catalog-title,
 .perforators-title,
 .company-promo-title,
-.company-contacts-title {
+.company-contacts-title,
+.cart-notification-title {
     font-family: 'Cuprum', sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: 400;
     color: #32425c;
     text-transform: uppercase;
+}
+
+.cart-notification-title {
+    text-transform: none;
+    color: #000000;
 }
 
 .service-title,
@@ -383,7 +391,9 @@ label {
 }
 
 .filter-btn,
-.feedback-cancel {
+.feedback-cancel,
+.cart-cancel-btn
+{
     color: #000000;
 }
 
@@ -1669,4 +1679,116 @@ footer {
 .footer-bottom-feedback {
     float: left;
     width: 140px;
+}
+/* НЕВИДИМЫЕ БЛОКИ САЙТА */
+
+.cart-notification {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 620px;
+    padding-top: 68px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-top: solid 7px #ee3643;
+    box-shadow: 0 10px 25px rgba(41, 52, 73, .5)
+}
+
+.cart-notification-close {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.cart-notification-close:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29px;
+    height: 5px;
+    transform: rotate(-45deg);
+    background: #ee3643;
+    font-size: 40px;
+    font-weight: 400;
+    content: "";
+}
+
+.cart-notification-close:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29px;
+    height: 5px;
+    transform: rotate(45deg);
+    background: #ee3643;
+    font-size: 40px;
+    font-weight: 400;
+    content: "";
+}
+
+.cart-notification-close:hover:before,
+.cart-notification-close:hover:after {
+    background-color: #ca2c37;
+}
+
+.cart-notification-close:active:before,
+.cart-notification-close:active:after {
+    background-color: #ba2732;
+}
+
+.cart-notification-title {
+    position: relative;
+    margin-left: 180px;
+    margin-bottom: 68px;
+}
+
+.cart-notification-title:before {
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    width: 65px;
+    height: 65px;
+    background: -21px -616px url('../img/sprites.png') no-repeat;
+    content: "";
+}
+
+.cart-notification-decision {
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 80px;
+    font-size: 0;
+    background-color: #f1f1f1;
+}
+
+.cart-order-btn,
+.cart-cancel-btn {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-right: 20px;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.cart-order-btn {
+    padding-left: 59px;
+    padding-right: 62px;
+    background-color: #ee3643;    
+}
+
+.cart-order-btn:hover {
+    background-color: #ca2c37;
+}
+
+.cart-order-btn:active {
+    background-color: #ba2732;
+}
+
+.cart-cancel-btn {
+    padding-left: 44px;
+    padding-right: 48px;
+    background-color: #ffffff;
 }
