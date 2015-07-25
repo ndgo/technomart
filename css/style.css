@@ -224,6 +224,7 @@ label {
 .popular-btn,
 .feedback-btn,
 .cart-order-btn,
+.feedback-cancel,
 .cart-cancel-btn,
 .offer-item-info,
 .catalog-item-buy,
@@ -1764,8 +1765,8 @@ footer {
 .cart-cancel-btn {
     display: inline-block;
     vertical-align: top;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     margin-right: 20px;
     border-style: none;
     border-radius: 5px;
@@ -1793,17 +1794,23 @@ footer {
 }
 
 .feedback {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 460px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 620px;
     padding-top: 48px;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin: 0 auto;
+    margin-top: -250px;
+    margin-left: -300px;
     border-top: solid 7px #ee3643;
     box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
     background-color: #ffffff;
+}
+
+.feedback-userdata,
+.feedback-block-buttons {
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .feedback-close {
@@ -1881,6 +1888,7 @@ textarea {
     height: 98.5px;
     padding-top: 9.5px;
     padding-left: 14px;
+    margin-bottom: 36px;
     border: 2px solid #d7dcde;
     border-radius: 5px;
     overflow: auto;
@@ -1894,4 +1902,100 @@ textarea:focus,
 
 .feedback-block-buttons {
     background-color: #f1f1f1;
+}
+
+.feedback-block-buttons {
+    padding-top: 37px;
+    padding-bottom: 37px;
+    font-size: 0;
+}
+
+.feedback-btn:last-child {
+    margin-right: 0;
+}
+
+.feedback-btn,
+.feedback-cancel {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 78px;
+    padding-right: 81px;
+    margin-right: 20px;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ee3643;
+}
+
+.feedback-btn:hover {
+    background-color: #ca2c37;
+}
+
+.feedback-btn:active {
+    background-color: #ba2732;
+}
+
+.feedback-cancel {
+    padding-left: 85px;
+    padding-right: 89px;
+    background-color: #ffffff;
+}
+
+.feedback-cancel:hover,
+.feedback-cancel:active {
+    background-color: #ffffff;
+}
+
+.map {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -470px;
+    margin-top: -230px;
+    box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
+}
+
+.map-close {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.map-close:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29px;
+    height: 5px;
+    transform: rotate(-45deg);
+    background: #ee3643;
+    font-size: 40px;
+    font-weight: 400;
+    content: "";
+}
+
+.map-close:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29px;
+    height: 5px;
+    transform: rotate(45deg);
+    background: #ee3643;
+    font-size: 40px;
+    font-weight: 400;
+    content: "";
+}
+
+.map-close:hover:before,
+.map-close:hover:after {
+    background-color: #ca2c37;
+}
+
+.map-close:active:before,
+.map-close:active:after {
+    background-color: #ba2732;
 }
