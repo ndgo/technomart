@@ -2373,7 +2373,7 @@ textarea:focus,
     width: 250px;
     display: block;
     padding-top: 10px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
     text-align: center;
     margin-right: 24px;
     background-color: #ee3643;
@@ -2424,4 +2424,156 @@ textarea:focus,
 
 .brands .brands-logo:nth-child(4n) {
     margin-right: 0;
+}
+
+.service {
+    padding-top: 74px;
+    background-color: #f2f6f8;
+}
+
+.service-intro {
+    margin-bottom: 65px;
+}
+
+.service-title {
+    margin-bottom: 30px;
+}
+
+.service-list-column ul {
+    position: relative;
+    float: left;
+    display: block;
+    width: 240px;
+}
+
+.service-list-column ul:before {
+    position: absolute;
+    top: -27px;
+    right: 0;
+    width: 10px;
+    min-height: 272px;
+    background: 0 0 no-repeat url('../img/column-delimiter.png');
+    content: "";
+}
+
+.service-list-column a {
+    float: left;
+    display: block;
+    width: 216px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    background-color: #32425c;
+    border-bottom: 1px solid #293449;
+    border-top: 1px solid #405069;
+}
+
+.service-list-column a:hover {
+    background-color: #293449;
+}
+
+.service-list-column .service-list-active {
+    border-top: 1px solid transparent;
+}
+
+.service-list-column .service-list-active,
+.service-list-column .service-list-active:hover {
+    background-color: #ffffff;
+}
+
+.service-details-block {
+    position: relative;
+    display: block;
+    float: right;
+    width: 620px;
+    min-height: 310px;
+}
+
+.service-details-delivery {
+    display: block;
+}
+
+.service-details-warrianty {
+    display: none;
+}
+
+.service-details-credit {
+    display: none;
+}
+
+.service-details-title {
+    margin-bottom: 26px;
+}
+
+.service-delivery-info {
+    width: 280px;
+}
+
+.service-warrianty-info + .service-warrianty-info {
+    width: 180px;
+}
+
+.service-details-delivery:before {
+    position: absolute;
+    width: 468px;
+    height: 261px;
+    bottom: 0;
+    right: 0;
+    background: 0 0 no-repeat url('../img/service-details-delivery-background.png');
+    content: "";
+}
+
+.service-warrianty-info {
+    width: 370px;
+}
+
+.service-warrianty-info + .service-warrianty-info {
+    width: 400px;
+}
+
+.service-details-warrianty:before {
+    position: absolute;
+    width: 465px;
+    height: 285px;
+    bottom: 0;
+    right: 0;
+    background: 0 0 no-repeat url('../img/service-credit-guarantee-background.png');
+    content: "";
+}
+
+.service-credit-info {
+    width: 220px;
+}
+
+.service-credit-info + .service-credit-info {
+    width: 300px;
+    margin-bottom: 29px;
+}
+
+.service-details-credit:before {
+    position: absolute;
+    width: 389px;
+    height: 283px;
+    bottom: 0;
+    right: 0;
+    background: 0 0 no-repeat url('../img/service-details-guarantee-background.png');
+    content: "";
+}
+
+.service-btn {
+    display: block;
+    width: 195px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ee3643;
+}
+
+.service-btn:hover {
+    background-color: #ca2c37;
+}
+
+.service-btn:active {
+    background-color: #ba2732;
 }

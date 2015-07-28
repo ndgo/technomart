@@ -53,8 +53,8 @@
             </nav>
         </div>
     </header>
-    <main class="container">
-        <section class="offer clearfix">
+    <main>
+        <section class="offer container clearfix">
             <div class="offer-item offer-material new-item">
                 <p class="offer-item-type">Материалы</p>
                 <a href="#" class="offer-item-info">На любой вкус</a>
@@ -68,10 +68,10 @@
                 <a href="#" class="offer-item-info">Для стройки</a>
             </div>
         </section>
-        <section class="offer-slider bottom-offer clearfix">
+        <section class="offer-slider bottom-offer container clearfix">
             <div class="offer-slider-block">
                 <input name="offer-slider-controlls" class="offer-slider-drill" type="radio" id="offer-slider-drill">
-                <label for="offer-slider-drill"></label>              
+                <label for="offer-slider-drill"></label>
                 <input name="offer-slider-controlls" class="offer-slider-perforator" type="radio" id="offer-slider-perforator" checked>
                 <label for="offer-slider-perforator"></label>
                 <label class="offer-left-arrow" for="offer-slider-drill"></label>
@@ -104,11 +104,11 @@
                 </div>
             </div>
         </section>
-        <section class="popular clearfix">
+        <section class="popular container clearfix">
             <p class="popular-text">Популярные товары:</p>
             <a href="#" class="popular-btn">Все популярные товары</a>
         </section>
-        <section class="catalog-popular clearfix">
+        <section class="catalog-popular container clearfix">
             <div class="catalog-item">
                 <figure class="catalog-item-image">
                     <img src="img/catalog-item-bfg-9000.jpg" width="218" height="220" alt="Перфоратор Bosch BFG 9000">
@@ -161,11 +161,11 @@
                 <p class="catalog-item-discount">12 500 Р.</p>
             </div>
         </section>
-        <section class="popular clearfix">
+        <section class="popular container clearfix">
             <p class="popular-text">Популярные производители:</p>
             <a href="#" class="popular-btn">Все производители</a>
         </section>
-        <section class="brands clearfix">
+        <section class="brands container clearfix">
             <a href="img/brands-logo-1.jpg" class="brands-logo">
                 <img src="img/brands-logo-1.jpg" width="218" height="145" alt="Bosch">
             </a>
@@ -192,44 +192,48 @@
             </a>
         </section>
         <section class="service">
-            <h2 class="service-title">Сервисы</h2>
-            <p class="service-title-info">Хороший интернет-магазин отличается от плохого не только ценами!</p>
-            <p class="service-title-info">Мы стараемся изо всех сил чтобы сделать ваши покупки приятными.</p>
-            <div class="service-columns clearfix">
-                <div class="left-column service-list-column">
-                    <ul>
-                        <li>
-                            <a href="#" class="service-list-active">Доставка</a>
-                        </li>
-                        <li>
-                            <a href="#">Гарантия</a>
-                        </li>
-                        <li>
-                            <a href="#">Кредит</a>
-                        </li>
-                    </ul>
+            <div class="container">
+                <div class="service-intro">
+                    <h2 class="service-title">Сервисы</h2>
+                    <p class="service-title-info">Хороший интернет-магазин отличается от плохого не только ценами!</p>
+                    <p class="service-title-info">Мы стараемся изо всех сил чтобы сделать ваши покупки приятными.</p>
                 </div>
-                <div class="right-column service-details-column">
-                    <section class="service-details-block service-details-delivery service-details-active">
-                        <h2 class="service-details-title">Доставка</h2>
-                        <p class="service-details-info">Мы с одовольствием доставим ваш товар прямо к вашему подьезду совершенно бесплатно!</p>
-                        <p class="service-details-info">Ведь мы неплохо заработаем поднимая его на ваш этаж.</p>
-                    </section>
-                    <section class="service-details-block service-details-warrianty">
-                        <h2 class="service-details-title">Гарантия</h2>
-                        <p class="service-details-info">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.</p>
-                        <p class="service-details-info">Дом уж восстановите как-нибудь сами.</p>
-                    </section>
-                    <section class="service-details-block service-details-credit">
-                        <h2 class="service-details-title">Кредит</h2>
-                        <p class="service-details-info">Залезть в долговую яму стало проще!</p>
-                        <p class="service-details-info">Кредитные консультанты придут вам на помощь.</p>
-                        <a href="#" class="service-btn">Отправить заявку</a>
-                    </section>
+                <div class="service-columns clearfix">
+                    <div class="left-column service-list-column">
+                        <ul>
+                            <li>
+                                <a href="#" class="service-list-active">Доставка</a>
+                            </li>
+                            <li>
+                                <a href="#">Гарантия</a>
+                            </li>
+                            <li>
+                                <a href="#">Кредит</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-column service-details-column">
+                        <section class="service-details-block service-details-delivery service-details-active">
+                            <h2 class="service-details-title">Доставка</h2>
+                            <p class="service-details-info service-delivery-info">Мы с одовольствием доставим ваш товар прямо к вашему подьезду совершенно бесплатно!</p>
+                            <p class="service-details-info service-delivery-info">Ведь мы неплохо заработаем поднимая его на ваш этаж.</p>
+                        </section>
+                        <section class="service-details-block service-details-warrianty">
+                            <h2 class="service-details-title">Гарантия</h2>
+                            <p class="service-details-info service-warrianty-info">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.</p>
+                            <p class="service-details-info service-warrianty-info">Дом уж восстановите как-нибудь сами.</p>
+                        </section>
+                        <section class="service-details-block service-details-credit">
+                            <h2 class="service-details-title">Кредит</h2>
+                            <p class="service-details-info service-credit-info">Залезть в долговую яму стало проще!</p>
+                            <p class="service-details-info service-credit-info">Кредитные консультанты придут вам на помощь.</p>
+                            <a href="#" class="service-btn">Отправить заявку</a>
+                        </section>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="company clearfix">
+        <section class="company container clearfix">
             <section class="left-column company-promo-column">
                 <h2 class="company-promo-title">«Компания Техномарт»</h2>
                 <p class="company-promo-info">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкомномть на гастарбайтерах.</p>
