@@ -2357,7 +2357,6 @@ textarea:focus,
 .popular {
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 30px;
     margin-bottom: 20px;
     background-color: #f7f3ec;
 }
@@ -2365,7 +2364,7 @@ textarea:focus,
 .popular-text {
     float: left;
     width: 380px;
-    vertical-align: bottom;
+    margin-left: 30px;
 }
 
 .popular-btn {
@@ -2579,4 +2578,8 @@ textarea:focus,
 
 .service-btn:active {
     background-color: #ba2732;
+}
+
+.company {
+    padding-top: 85px;
 }
