@@ -2582,4 +2582,93 @@ textarea:focus,
 
 .company {
     padding-top: 85px;
+    padding-bottom: 86px;
+}
+
+.company-promo-column {
+    float: left;
+    width: 520px;
+}
+
+.company-contacts-column {
+    float: right;
+    width: 300px;
+}
+
+.company-promo-title,
+.company-contacts-title {
+    margin-bottom: 25px;
+}
+
+.company-promo-info {
+    width: 520px;
+    margin-bottom: 33px;
+}
+
+.company-promo-info + .company-promo-info {
+    width: 380px;
+    margin-bottom: 21.5px;
+}
+
+.company-promo-list {
+    margin-left: 36px;
+    margin-bottom: 26px;
+}
+
+.company-promo-list li {
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.company-promo-list li:last-child {
+    margin-bottom: 0;
+}
+
+
+.company-promo-list li:before {
+    position: absolute;
+    top:7px;
+    left: -36px;
+    width: 25px;
+    height: 2px;
+    background-color: #fb565a;
+    content: "";
+}
+
+.company-about-btn,
+.company-feedback-btn {
+    width: 220px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: 24px;
+    background-color: #ee3643;
+    border-radius: 5px;
+}
+
+.company-about-btn:hover,
+.company-feedback-btn:hover{
+    background-color: #ca2c37;
+}
+
+.company-about-btn:active,
+.company-feedback-btn:active {
+    background-color: #ba2732;
+}
+
+.company-contacts-info {
+    width: 180px;
+    margin-bottom: 33px;
+}
+
+.company-contacts-map {
+    display: block;
+    width: 300px;
+    height: 160px;
+    margin-bottom: 40px;
+}
+
+.company-feedback-btn {
+    width: 100%;
 }
