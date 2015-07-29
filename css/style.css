@@ -2406,6 +2406,9 @@ textarea:focus,
 }
 
 .brands-logo {
+    box-sizing: border-box;
+    width: 220px;
+    height: 147px;
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
