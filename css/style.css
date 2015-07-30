@@ -1407,7 +1407,8 @@ input[type="checkbox"] ~ h3 {
 }
 
 .catalog-item:hover {
-    box-shadow: 0 10px 25px rgba(41, 52, 73, .5)
+    box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
+    border: 1px solid transparent;
 }
 
 .catalog-item:hover .catalog-item-buttons {
