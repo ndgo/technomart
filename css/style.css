@@ -2255,6 +2255,21 @@ textarea:focus,
     content: "";
 }
 
+.offer-slider-perforator + label:after {
+    position: absolute;
+    top: 220px;
+    left: 315px;
+    display: inline-block;
+    vertical-align: top;
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    z-index: 1000;
+    content: "";
+}
+
 .offer-slider-drill:checked + label:after,
 .offer-slider-perforator:checked + label:after {
     width: 6px;
@@ -2262,20 +2277,6 @@ textarea:focus,
     border-radius: 5px;
     border: 2px solid #ffffff;
     background-color: #ee3643;
-}
-
-.offer-slider-perforator + label:after {
-    position: absolute;
-    top: 220px;
-    left: 315px;
-    display: inline-block;
-    vertical-align: top;
-    width: 10px;
-    height: 10px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    z-index: 1000;
-    content: "";
 }
 
 .offer-slider-drill:checked~.offer-slider-items {
