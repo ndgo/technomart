@@ -149,9 +149,12 @@ label {
 }
 
 .header-upper-cart:active,
-.header-upper-order:active,
 .header-upper-bookmark:active {
-    color: #a2a5a9;
+    color: rgba(255,255,255,.6);
+}
+
+.header-upper-order:active {
+    color: rgba(255,255,255,.5);
 }
 
 .header-middle-about {
