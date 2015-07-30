@@ -630,6 +630,7 @@ header {
 .header-upper-search input {
     box-sizing: border-box;
     width: 270px;
+    height: 42px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 49px;
@@ -759,7 +760,6 @@ input[type="search"]:active ~ label::before {
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 20px;
-    padding-right: 22px;
     background-color: #63a63e;
 }
 
