@@ -941,7 +941,7 @@ input[type="search"]:active ~ label::before {
 }
 
 .header-bottom-panel a:active {
-    color: #868c95;
+    color: rgba(255,255,255,.5);
     background-color: #293449;
 }
 /* ВЕРСТА МЭЙН БЛОКА */
