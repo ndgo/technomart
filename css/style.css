@@ -1272,7 +1272,8 @@ input[type="checkbox"] + label:hover::before {
     color: #b5b5b5;
 }
 
-input[type="radio"]:disabled + label::before {
+input[type="radio"]:disabled + label::before,
+input[type="checkbox"]:disabled + label::before {
     color: #e9e9e9;
 }
 
