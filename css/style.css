@@ -1799,6 +1799,14 @@ footer {
     background-color: #ffffff;
 }
 
+.cart-cancel-btn:hover {
+    color: #ee3643;
+}
+
+.cart-cancel-btn:active {
+    color: rgba(0,0,0,.6);
+}
+
 .feedback {
     display: none;
     position: fixed;
