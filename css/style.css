@@ -1957,8 +1957,13 @@ textarea:focus,
     background-color: #ffffff;
 }
 
-.feedback-cancel:hover,
+.feedback-cancel:hover {
+    color: #ee3643;
+    background-color: #ffffff;
+}
+
 .feedback-cancel:active {
+    color: rgba(0,0,0,.6);
     background-color: #ffffff;
 }
 
