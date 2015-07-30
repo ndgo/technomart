@@ -150,11 +150,11 @@ label {
 
 .header-upper-cart:active,
 .header-upper-bookmark:active {
-    color: rgba(255,255,255,.6);
+    color: rgba(255, 255, 255, .6);
 }
 
 .header-upper-order:active {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .header-middle-about {
@@ -200,7 +200,7 @@ label {
 .header-user-login:active,
 .header-block-user:active,
 .header-user-registration:active {
-    color: rgba(0,0,0,.3);
+    color: rgba(0, 0, 0, .3);
 }
 
 .header-bottom-panel a {
@@ -941,7 +941,7 @@ input[type="search"]:active ~ label::before {
 }
 
 .header-bottom-panel a:active {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     background-color: #293449;
 }
 /* ВЕРСТА МЭЙН БЛОКА */
@@ -2361,6 +2361,16 @@ textarea:focus,
     color: #ffffff;
 }
 
+.offer-left-arrow:hover:before,
+.offer-right-arrow:hover:before {
+    color: #fb565a;
+}
+
+.offer-left-arrow:active:before,
+.offer-right-arrow:active:before {
+    color: rgba(255, 255, 255, .6);
+}
+
 .popular {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -2631,10 +2641,9 @@ textarea:focus,
     margin-bottom: 0;
 }
 
-
 .company-promo-list li:before {
     position: absolute;
-    top:7px;
+    top: 7px;
     left: -36px;
     width: 25px;
     height: 2px;
@@ -2655,7 +2664,7 @@ textarea:focus,
 }
 
 .company-about-btn:hover,
-.company-feedback-btn:hover{
+.company-feedback-btn:hover {
     background-color: #ca2c37;
 }
 
