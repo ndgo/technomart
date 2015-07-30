@@ -2240,42 +2240,33 @@ textarea:focus,
     display: none;
 }
 
-.offer-slider-drill + label:after {
+.offer-slider-drill + label:after,
+.offer-slider-perforator + label:after{
     position: absolute;
     top: 220px;
     left: 300px;
     display: inline-block;
     vertical-align: top;
-    width: 6px;
-    height: 6px;
+    width: 4px;
+    height: 4px;
     background-color: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
     z-index: 1000;
     content: "";
 }
 
 .offer-slider-perforator + label:after {
-    position: absolute;
     top: 220px;
     left: 315px;
-    display: inline-block;
-    vertical-align: top;
-    width: 6px;
-    height: 6px;
-    background-color: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-    z-index: 1000;
-    content: "";
 }
 
 .offer-slider-drill:checked + label:after,
 .offer-slider-perforator:checked + label:after {
-    width: 6px;
-    height: 6px;
-    border-radius: 5px;
-    border: 2px solid #ffffff;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
     background-color: #ee3643;
 }
 
@@ -2319,6 +2310,7 @@ textarea:focus,
     background-color: #ee3643;
     text-align: center;
     border-radius: 5px;
+    z-index: 1010;
 }
 
 .slider-btn:hover {
