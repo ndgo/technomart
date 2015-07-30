@@ -2246,9 +2246,10 @@ textarea:focus,
     left: 300px;
     display: inline-block;
     vertical-align: top;
-    width: 10px;
-    height: 10px;
+    width: 6px;
+    height: 6px;
     background-color: #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     z-index: 1000;
     content: "";
@@ -2340,6 +2341,7 @@ textarea:focus,
     top: 115px;
     left: 24px;
     font-size: 40px;
+    line-height: 40px;
     font-family: "symbols-technomart";
     font-style: normal;
     font-weight: normal;
@@ -2360,6 +2362,7 @@ textarea:focus,
     top: 115px;
     right: 24px;
     font-size: 40px;
+    line-height: 40px;
     font-family: "symbols-technomart";
     font-style: normal;
     font-weight: normal;
