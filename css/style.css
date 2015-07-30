@@ -197,7 +197,7 @@ label {
 .header-user-login:active,
 .header-block-user:active,
 .header-user-registration:active {
-    color: #b2b2b2;
+    color: rgba(0,0,0,.3);
 }
 
 .header-bottom-panel a {
@@ -2040,15 +2040,18 @@ textarea:focus,
     font-variant: normal;
     text-transform: none;
     content: "\241b";
-    color: #c5c5c5;
+    opacity: .3;
+    color: #000000;
 }
 
 .header-user-login:hover:before {
     color: #ee3643;
+    opacity: 1;
 }
 
 .header-user-login:active:before {
-    color: #c5c5c5;
+    color: #000000;
+    opacity: .3;
 }
 
 .header-user-registration {
