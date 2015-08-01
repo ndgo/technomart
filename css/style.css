@@ -778,7 +778,7 @@ input[type="search"]:active ~ label::before {
 /* СТИЛИ ДЛЯ СРЕДНЕГО МЕНЮ */
 
 .header-middle-panel {
-    margin-bottom: 38px;
+    margin-bottom: 37px;
 }
 
 .header-middle-about {
@@ -998,7 +998,7 @@ input[type="search"]:active ~ label::before {
 }
 
 .catalog-title {
-    padding-top: 29.5px;
+    padding-top: 27.5px;
     padding-bottom: 29.5px;
     padding-left: 30px;
     margin-bottom: 20px;
@@ -1030,7 +1030,7 @@ input[type="search"]:active ~ label::before {
 .catalog-options {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     font-size: 0;
     background-color: #f7f3ec;
     border-radius: 5px;
@@ -1154,7 +1154,7 @@ input[type="search"]:active ~ label::before {
 .catalog-range-filter {
     font-size: 0;
     padding-bottom: 25px;
-    margin-bottom: 18.5px;
+    margin-bottom: 16.5px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #e5e5e5;
@@ -1207,6 +1207,8 @@ input[type="search"]:active ~ label::before {
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .catalog-range-filter input {
@@ -1234,7 +1236,7 @@ input[type="search"]:active ~ label::before {
 .catalog-filter-column label {
     position: relative;
     margin-left: 35px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 input[type="radio"] + label::before,
@@ -1242,7 +1244,7 @@ input[type="checkbox"] + label::before {
     position: absolute;
     top: 0;
     left: -35px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "symbols-technomart";
     font-style: normal;
     font-weight: normal;
@@ -1290,7 +1292,7 @@ input[type="checkbox"] ~ h3 {
     padding-bottom: 10.5px;
     padding-left: 38px;
     padding-right: 38px;
-    margin-top: 81.5px;
+    margin-top: 55px;
     border-radius: 5px;
     border-color: #e5e5e5;
     border-width: 1px;
@@ -1311,7 +1313,7 @@ input[type="checkbox"] ~ h3 {
 
 .catalog-block {
     font-size: 0;
-    margin-bottom: 32px;
+    margin-bottom: 31px;
 }
 
 .catalog-item {
@@ -1500,9 +1502,9 @@ input[type="checkbox"] ~ h3 {
 
 .catalog-paginator a,
 .catalog-paginator span {
-    padding-top: 11.5px;
-    padding-bottom: 12.5px;
-    padding-left: 17px;
+    padding-top: 9.5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
     padding-right: 16px;
     margin-right: 10px;
     border-radius: 5px;
@@ -1528,13 +1530,13 @@ input[type="checkbox"] ~ h3 {
 }
 
 .perforators {
-    padding-top: 68px;
+    padding-top: 65px;
     padding-bottom: 68px;
     background-color: #f2f6f8;
 }
 
 .perforators-title {
-    margin-bottom: 34px;
+    margin-bottom: 25px;
 }
 /* ФУТЕР */
 
@@ -1544,14 +1546,14 @@ footer {
 
 .footer-upper-panel {
     min-height: 63px;
-    margin-bottom: 29px;
+    margin-bottom: 32px;
 }
 
 .footer-panel-logo {
     float: left;
     width: 220px;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 19px;
+    padding-bottom: 15px;
     text-align: center;
     background-color: #ee3643;
     box-shadow: #ca2c37 0px 5px 0px 0px;
@@ -1569,15 +1571,16 @@ footer {
 
 .footer-panel-contacts {
     float: right;
-    width: 570px;
+    width: 600px;
     font-size: 0;
+    padding-top: 39px;
 }
 
 .footer-panel-contacts li {
     display: inline-block;
     vertical-align: top;
-    padding-top: 39px;
-    margin-right: 63px;
+    width: 120px;
+    text-align:right;
 }
 
 .footer-panel-contacts li:last-child {
@@ -1590,19 +1593,21 @@ footer {
 
 .footer-panel-address {
     float: left;
-    width: 350px;
+    width: 330px;
 }
 
 .footer-panel-offer {
     float: right;
-    width: 560px;
+    width: 520px;
     font-size: 0;
+    text-align: right;
 }
 
 .footer-panel-offer li {
     display: inline-block;
     vertical-align: top;
-    margin-right: 65px;
+    width: 130px;
+    text-align: left;
 }
 
 .footer-panel-offer li:last-child {
@@ -1610,7 +1615,7 @@ footer {
 }
 
 .footer-bottom-panel {
-    padding-top: 38px;
+    padding-top: 36px;
     padding-bottom: 35px;
     background-color: #293449;
 }
@@ -1618,7 +1623,7 @@ footer {
 .footer-bottom-copyright {
     float: left;
     width: 240px;
-    margin-right: 160px;
+    margin-right: 150px;
 }
 
 .footer-bottom-social {
@@ -1807,7 +1812,7 @@ footer {
 }
 
 .cart-cancel-btn:active {
-    color: rgba(0,0,0,.6);
+    color: rgba(0, 0, 0, .6);
 }
 
 .feedback {
@@ -1966,7 +1971,7 @@ textarea:focus,
 }
 
 .feedback-cancel:active {
-    color: rgba(0,0,0,.6);
+    color: rgba(0, 0, 0, .6);
     background-color: #ffffff;
 }
 
@@ -2244,7 +2249,7 @@ textarea:focus,
 }
 
 .offer-slider-drill + label:after,
-.offer-slider-perforator + label:after{
+.offer-slider-perforator + label:after {
     position: absolute;
     top: 220px;
     left: 300px;
