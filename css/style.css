@@ -2390,9 +2390,9 @@ textarea:focus,
 }
 
 .popular {
-    padding-top: 25px;
+    padding-top: 28px;
     padding-bottom: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     background-color: #f7f3ec;
 }
 
@@ -2436,7 +2436,7 @@ textarea:focus,
 
 .brands {
     font-size: 0;
-    margin-bottom: 75px;
+    margin-bottom: 63px;
 }
 
 .brands-logo {
@@ -2464,7 +2464,7 @@ textarea:focus,
 }
 
 .service {
-    padding-top: 74px;
+    padding-top: 64px;
     background-color: #f2f6f8;
 }
 
@@ -2473,7 +2473,7 @@ textarea:focus,
 }
 
 .service-title {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .service-list-column ul {
@@ -2494,11 +2494,11 @@ textarea:focus,
 }
 
 .service-list-column a {
-    float: left;
+    box-sizing: border-box;
+    height: 60px;
     display: block;
-    width: 216px;
-    padding-top: 18px;
-    padding-bottom: 20px;
+    padding-top: 16px;
+    padding-bottom: 18px;
     padding-left: 24px;
     background-color: #32425c;
     border-bottom: 1px solid #293449;
@@ -2511,6 +2511,7 @@ textarea:focus,
 
 .service-list-column .service-list-active {
     border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
 }
 
 .service-list-column .service-list-active,
@@ -2523,7 +2524,7 @@ textarea:focus,
     display: block;
     float: right;
     width: 620px;
-    min-height: 310px;
+    min-height: 284px;
 }
 
 .service-details-delivery {
@@ -2637,7 +2638,7 @@ textarea:focus,
 
 .company-promo-info {
     width: 520px;
-    margin-bottom: 33px;
+    margin-bottom: 23px;
 }
 
 .company-promo-info + .company-promo-info {
@@ -2647,12 +2648,12 @@ textarea:focus,
 
 .company-promo-list {
     margin-left: 36px;
-    margin-bottom: 26px;
+    margin-bottom: 34px;
 }
 
 .company-promo-list li {
     position: relative;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
 .company-promo-list li:last-child {
@@ -2693,14 +2694,14 @@ textarea:focus,
 
 .company-contacts-info {
     width: 180px;
-    margin-bottom: 33px;
+    margin-bottom: 31px;
 }
 
 .company-contacts-map {
     display: block;
     width: 300px;
     height: 160px;
-    margin-bottom: 40px;
+    margin-bottom: 38px;
 }
 
 .company-feedback-btn {
