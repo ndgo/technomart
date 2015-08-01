@@ -1816,7 +1816,7 @@ footer {
 }
 
 .feedback {
-    display: block;
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -1993,9 +1993,9 @@ textarea:focus,
 
 .map-close:before {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 29px;
+    top: -2px;
+    left: 10px;
+    width: 25px;
     height: 5px;
     transform: rotate(-45deg);
     background: #ee3643;
@@ -2006,9 +2006,9 @@ textarea:focus,
 
 .map-close:after {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 29px;
+    top: -2px;
+    left: 10px;
+    width: 25px;
     height: 5px;
     transform: rotate(45deg);
     background: #ee3643;
