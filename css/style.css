@@ -1701,7 +1701,7 @@ footer {
     top: 50%;
     left: 50%;
     width: 620px;
-    padding-top: 68px;
+    padding-top: 66px;
     margin-top: -200px;
     margin-left: -300px;
     background-color: #ffffff;
@@ -1717,9 +1717,9 @@ footer {
 
 .cart-notification-close:before {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 29px;
+    top: -2px;
+    left: 5px;
+    width: 25px;
     height: 5px;
     transform: rotate(-45deg);
     background: #ee3643;
@@ -1730,9 +1730,9 @@ footer {
 
 .cart-notification-close:after {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 29px;
+    top: -2px;
+    left: 5px;
+    width: 25px;
     height: 5px;
     transform: rotate(45deg);
     background: #ee3643;
@@ -1780,7 +1780,7 @@ footer {
     display: inline-block;
     vertical-align: top;
     padding-top: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 9px;
     margin-right: 20px;
     border-style: none;
     border-radius: 5px;
