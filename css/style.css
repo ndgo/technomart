@@ -1355,6 +1355,8 @@ input[type="checkbox"] ~ h3 {
 }
 
 .catalog-item-image {
+    width: 218px;
+    height: 169px;
     margin-bottom: 12px;
 }
 
@@ -1367,11 +1369,11 @@ input[type="checkbox"] ~ h3 {
 }
 
 .catalog-item-model {
-    margin-bottom: 16.5px;
+    margin-bottom: 11.5px;
 }
 
 .catalog-item-price {
-    margin-bottom: 12.5px;
+    margin-bottom: 7.5px;
 }
 
 .catalog-item-discount {
@@ -1406,7 +1408,7 @@ input[type="checkbox"] ~ h3 {
     display: none;
     top: 0;
     width: 218px;
-    min-height: 175px;
+    height: 124px;
     padding-top: 45px;
     background-color: #ffffff;
 }
