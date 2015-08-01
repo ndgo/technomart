@@ -1816,7 +1816,7 @@ footer {
 }
 
 .feedback {
-    display: none;
+    display: block;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -1843,9 +1843,9 @@ footer {
 
 .feedback-close:before {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 29px;
+    top: -2px;
+    left: 10px;
+    width: 25px;
     height: 5px;
     transform: rotate(-45deg);
     background: #ee3643;
@@ -1856,9 +1856,9 @@ footer {
 
 .feedback-close:after {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 29px;
+    top: -2px;
+    left: 10px;
+    width: 25px;
     height: 5px;
     transform: rotate(45deg);
     background: #ee3643;
@@ -1893,7 +1893,7 @@ footer {
 
 .feedback-data,
 .feedback-block label {
-    margin-bottom: 13px;
+    margin-bottom: 9px;
 }
 
 .feedback-block input {
@@ -1910,7 +1910,7 @@ textarea {
     height: 98.5px;
     padding-top: 9.5px;
     padding-left: 14px;
-    margin-bottom: 36px;
+    margin-bottom: 30px;
     border: 2px solid #d7dcde;
     border-radius: 5px;
     overflow: auto;
@@ -1941,7 +1941,7 @@ textarea:focus,
     display: inline-block;
     vertical-align: top;
     padding-top: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
     padding-left: 78px;
     padding-right: 81px;
     margin-right: 20px;
