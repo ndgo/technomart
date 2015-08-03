@@ -2460,6 +2460,10 @@ textarea:focus,
     border: 1px solid #e5e5e5;
 }
 
+.brands-logo:focus {
+    outline: none;
+}
+
 .brands-logo:hover {
     box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
     border-color: transparent;
@@ -2706,10 +2710,13 @@ textarea:focus,
     margin-bottom: 38px;
 }
 
+.company-contacts-map:focus {
+    outline: none;
+}
+
 .company-feedback-btn {
     width: 100%;
 }
-
 
 @-webkit-keyframes bounce {
     0% {
