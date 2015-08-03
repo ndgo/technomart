@@ -2505,6 +2505,10 @@ textarea:focus,
     border-top: 1px solid #405069;
 }
 
+.service-list-column a:focus {
+    outline: none;
+}
+
 .service-list-column a:hover {
     background-color: #293449;
 }
