@@ -2567,7 +2567,7 @@ textarea:focus,
     height: 285px;
     bottom: 0;
     right: 0;
-    background: 0 0 no-repeat url('../img/service-credit-guarantee-background.png');
+    background: 0 0 no-repeat url('../img/service-credit-background.png');
     content: "";
 }
 
