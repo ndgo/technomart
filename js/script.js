@@ -100,28 +100,9 @@ for (i = 0; i < serviceLinks.length; ++i) {
 	})
 }
 
-/*
-
 function initialize() {
-    var myLatLng = new google.maps.LatLng(55.687031, 37.529618);
-    var mapOptions = {
-        zoom: 16,
-        center: new google.maps.LatLng(55.687463, 37.526496),
-        disableDefaultUI: true
-    }
-    var map = new google.maps.Map(document.querySelector(".map-script"), mapOptions);
-    var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map
-    });
-}
-google.maps.event.addDomListener(window, "load", initialize);
-
-*/
-
-function initialize() {
-    var x = 45.038739;
-    var y = 38.973099;
+    var x = 59.938969;
+    var y = 30.323040;
     var mapOptions = {
         zoom: 17,
         center: new google.maps.LatLng(x, y),
@@ -132,12 +113,10 @@ function initialize() {
         document.querySelector(".map-script"),
         mapOptions
     );
-    var image = "img/map-marker.png"; 
     var myLatLng = new google.maps.LatLng(x, y);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
-        map: map,
-        icon: image
+        map: map
     });
 }
-google.maps.event.addDomListener(window, "load", initialize);
+google.maps.event.addDomListener(mapLink, "click", initialize);
