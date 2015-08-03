@@ -3,28 +3,30 @@ var feedbackButton = document.querySelector(".company-feedback-btn");
 var feedbackClose = document.querySelector(".feedback-close");
 var feedbackCancel = document.querySelector(".feedback-cancel");
 
-feedbackButton.addEventListener("click", function (event) {
-	event.preventDefault(event);
-	feedbackPopup.classList.add("show-block");
-});
+if (feedbackButton != null && feedbackClose != null && feedbackCancel != null) {
+    feedbackButton.addEventListener("click", function (event) {
+        event.preventDefault(event);
+        feedbackPopup.classList.add("show-block");
+    });
 
-feedbackClose.addEventListener("click", function (event) {
-	event.preventDefault(event);
-	feedbackPopup.classList.remove("show-block");
-});
+    feedbackClose.addEventListener("click", function (event) {
+        event.preventDefault(event);
+        feedbackPopup.classList.remove("show-block");
+    });
 
-feedbackCancel.addEventListener("click", function (event) {
-	event.preventDefault(event);
-	feedbackPopup.classList.remove("show-block");
-});
+    feedbackCancel.addEventListener("click", function (event) {
+        event.preventDefault(event);
+        feedbackPopup.classList.remove("show-block");
+    });
 
-window.addEventListener("keydown", function (event) {
-    if (event.keyCode == 27) {
-        if (feedbackPopup.classList.contains("show-block")) {
-            feedbackPopup.classList.remove("show-block");
+    window.addEventListener("keydown", function (event) {
+        if (event.keyCode == 27) {
+            if (feedbackPopup.classList.contains("show-block")) {
+                feedbackPopup.classList.remove("show-block");
+            }
         }
-    }
-});
+    });
+}
 
 var buyItemButtons = document.querySelectorAll('.catalog-item-buy'), i;
 var cartBlock = document.querySelector(".cart-notification");
