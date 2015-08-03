@@ -1992,6 +1992,7 @@ textarea:focus,
     width: 940px;
     height: 447px;
     margin: 0 auto;
+    background-color: #E9E5DC;
 }
 
 .map-close {
