@@ -1980,15 +1980,25 @@ textarea:focus,
     position: fixed;
     top: 50%;
     left: 50%;
+    width: 940px;
+    height: 447px;
     margin-left: -470px;
     margin-top: -230px;
     box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
+}
+
+.map-script,
+.map figure {
+    width: 940px;
+    height: 447px;
+    margin: 0 auto;
 }
 
 .map-close {
     position: absolute;
     right: 40px;
     top: 20px;
+    cursor: pointer;
 }
 
 .map-close:before {

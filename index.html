@@ -318,10 +318,15 @@
             </div>
         </div>
     </footer>
-    <figure class="map container">
+    <div class="map container">
+        <noscript>
+            <figure>
+                <img src="img/map.jpg" width="940" height="447" alt="Мы на карте">
+            </figure>
+        </noscript>
+        <div class="map-script"></div>
         <a href="#" class="map-close"></a>
-        <img src="img/map.jpg" width="940" height="445" alt="Мы на карте">
-    </figure>
+    </div>
     <div class="feedback container">
         <a href="#" class="feedback-close"></a>
         <form action="/feedback" method="post">
@@ -354,8 +359,10 @@
                 <a href="#" class="cart-cancel-btn">Продолжить покупки</a>
             </div>
         </form>
-    </div>     
-    <script src="js/script.js"></script> 
+    </div>
+    <script src="http://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false">
+    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
