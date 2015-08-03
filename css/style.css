@@ -2521,22 +2521,10 @@ textarea:focus,
 
 .service-details-block {
     position: relative;
-    display: block;
+    display: none;
     float: right;
     width: 620px;
     min-height: 284px;
-}
-
-.service-details-delivery {
-    display: block;
-}
-
-.service-details-warrianty {
-    display: none;
-}
-
-.service-details-credit {
-    display: none;
 }
 
 .service-details-title {
@@ -2708,6 +2696,7 @@ textarea:focus,
     width: 100%;
 }
 
-.show-block {
+.show-block,
+.service-details-active {
     display: block;
 }
