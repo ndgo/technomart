@@ -1985,6 +1985,7 @@ textarea:focus,
     margin-left: -470px;
     margin-top: -230px;
     box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
+    z-index: 5000;
 }
 
 .map-script,
@@ -2365,8 +2366,8 @@ textarea:focus,
     font-variant: normal;
     text-transform: none;
     content: "\3c";
-    z-index: 1000;
     color: #ffffff;
+    z-index: 1000;
 }
 
 .offer-right-arrow:before {
@@ -2386,8 +2387,8 @@ textarea:focus,
     font-variant: normal;
     text-transform: none;
     content: "\3e";
-    z-index: 1000;
     color: #ffffff;
+    z-index: 1000;
 }
 
 .offer-left-arrow:hover:before,
