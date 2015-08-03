@@ -2707,3 +2707,7 @@ textarea:focus,
 .company-feedback-btn {
     width: 100%;
 }
+
+.show-block {
+    display: block;
+}
