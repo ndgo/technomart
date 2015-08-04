@@ -28,7 +28,7 @@ if (feedbackButton != null && feedbackClose != null && feedbackCancel != null) {
     });
 }
 
-var buyItemButtons = document.querySelectorAll('.catalog-item-buy'), i;
+var buyItemButtons = document.querySelectorAll(".catalog-item-buy"), i;
 var cartBlock = document.querySelector(".cart-notification");
 var cartClose = document.querySelector(".cart-notification-close");
 var cartCancel = document.querySelector(".cart-cancel-btn");
