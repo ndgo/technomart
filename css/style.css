@@ -1068,11 +1068,13 @@ input[type="search"]:active ~ label::before {
 .catalog-up-arrow {
     position: relative;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 .catalog-down-arrow {
     position: relative;
     margin-right: 15px;
+    text-decoration: none;
 }
 
 .catalog-options-active {
