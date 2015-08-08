@@ -1707,6 +1707,7 @@ footer {
     background-color: #ffffff;
     border-top: solid 7px #ee3643;
     box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
+    z-index: 5000;
 }
 
 .cart-notification-close {
@@ -1827,6 +1828,7 @@ footer {
     border-top: solid 7px #ee3643;
     box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
     background-color: #ffffff;
+    z-index: 5000;
 }
 
 .feedback-userdata,
