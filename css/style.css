@@ -56,7 +56,7 @@ label {
 /* ОСНОВНЫЕ СТИЛИ САЙТА */
 
 .header-upper-logo {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 24px;
     line-height: 26px;
     font-weight: 700;
@@ -66,7 +66,7 @@ label {
 }
 
 .header-upper-search input {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -74,7 +74,7 @@ label {
 }
 
 .header-upper-search input::-webkit-input-placeholder {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -82,7 +82,7 @@ label {
 }
 
 .header-upper-search input::-moz-placeholder {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -90,7 +90,7 @@ label {
 }
 
 .header-upper-search input:-moz-placeholder {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -98,7 +98,7 @@ label {
 }
 
 .header-upper-search input:-ms-input-placeholder {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -106,7 +106,7 @@ label {
 }
 
 .header-upper-search input:focus::-webkit-input-placeholder {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -114,7 +114,7 @@ label {
 }
 
 .header-upper-search input:focus::-moz-placeholder {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -122,7 +122,7 @@ label {
 }
 
 .header-upper-search input:focus:-moz-placeholder {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -130,7 +130,7 @@ label {
 }
 
 .header-upper-search input:focus:-ms-input-placeholder {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -140,7 +140,7 @@ label {
 .header-upper-cart,
 .header-upper-order,
 .header-upper-bookmark {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -158,7 +158,7 @@ label {
 }
 
 .header-middle-about {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 16px;
     line-height: 23px;
     font-weight: 400;
@@ -170,7 +170,7 @@ label {
 .header-block-user,
 .header-user-registration,
 .header-contacts-telephone {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 21px;
     line-height: 21px;
     font-weight: 400;
@@ -178,7 +178,7 @@ label {
 }
 
 .header-contacts-address {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -204,7 +204,7 @@ label {
 }
 
 .header-bottom-panel a {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 17px;
     line-height: 17px;
     font-weight: 400;
@@ -213,7 +213,7 @@ label {
 }
 
 .offer-item-type {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
@@ -234,7 +234,7 @@ label {
 .company-about-btn,
 .company-feedback-btn,
 .catalog-item-bookmark {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
@@ -244,7 +244,7 @@ label {
 }
 
 .offer-slider-title {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 36px;
     line-height: 36px;
     font-weight: 700;
@@ -256,7 +256,7 @@ label {
 .footer-panel-offer a,
 .footer-panel-address,
 .footer-panel-contacts a {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
@@ -271,7 +271,7 @@ label {
 .company-promo-title,
 .company-contacts-title,
 .cart-notification-title {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 30px;
     line-height: 30px;
     font-weight: 400;
@@ -291,7 +291,7 @@ label {
 }
 
 .service-list-column a {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 21px;
     line-height: 30px;
     font-weight: 700;
@@ -304,7 +304,7 @@ label {
 }
 
 .service-details-title {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 36px;
     line-height: 36px;
     font-weight: 400;
@@ -321,7 +321,7 @@ label {
 }
 
 .company-promo-list li {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 18px;
     line-height: 20px;
     font-weight: 400;
@@ -329,7 +329,7 @@ label {
 }
 
 .footer-panel-logo {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 30px;
     line-height: 30px;
     font-weight: 700;
@@ -361,7 +361,7 @@ label {
 .footer-bottom-design,
 .footer-bottom-feedback,
 .footer-bottom-copyright {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
@@ -387,7 +387,7 @@ label {
 }
 
 .feedback-data {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
@@ -402,7 +402,7 @@ label {
 
 .feedback input,
 .feedback textarea {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
@@ -411,7 +411,7 @@ label {
 
 .feedback input::-webkit-input-placeholder,
 .feedback textarea::-webkit-input-placeholder {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
@@ -420,7 +420,7 @@ label {
 
 .feedback input::-moz-placeholder,
 .feedback textarea::-moz-placeholder {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
@@ -429,7 +429,7 @@ label {
 
 .feedback input:-moz-placeholder,
 .feedback textarea:-moz-placeholder {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
@@ -438,7 +438,7 @@ label {
 
 .feedback input:-ms-input-placeholder,
 .feedback textarea:-ms-input-placeholder {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
@@ -447,7 +447,7 @@ label {
 
 .catalog-item-model,
 .catalog-item-vendor {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
@@ -456,7 +456,7 @@ label {
 
 .catalog-item-price,
 .catalog-item-discount {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 700;
@@ -473,7 +473,7 @@ label {
 .service-title-info,
 .service-details-info,
 .company-contacts-info {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 13px;
     line-height: 24px;
     font-weight: 400;
@@ -481,7 +481,7 @@ label {
 }
 
 .header-links-element {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
@@ -489,7 +489,7 @@ label {
 }
 
 .header-links-element:hover {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
@@ -506,7 +506,7 @@ label {
 .catalog-paginator a,
 .catalog-paginator span,
 .catalog-filter-column p {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
@@ -516,7 +516,7 @@ label {
 }
 
 .catalog-filter-column h3 {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 17px;
     line-height: 30px;
     font-weight: 700;
@@ -530,7 +530,7 @@ label {
 }
 
 .catalog-filter-column label {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 15px;
     line-height: 20px;
     font-weight: 400;
@@ -542,7 +542,7 @@ label {
 
 input[type="checkbox"]:disabled + label,
 input[type="radio"]:disabled + label {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 15px;
     line-height: 20px;
     font-weight: 400;
@@ -553,7 +553,7 @@ input[type="radio"]:disabled + label {
 
 .catalog-filter-column span,
 .catalog-filter-column input[type="text"] {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 17px;
     line-height: 18px;
     font-weight: 400;
@@ -561,7 +561,7 @@ input[type="radio"]:disabled + label {
 }
 
 .catalog-options-variant {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif, Arial;
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
@@ -1336,7 +1336,7 @@ input[type="checkbox"] ~ h3 {
     vertical-align: top;
     width: 100px;
     height: 25px;
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", sans-serif, Arial;
     font-weight: 400;
     text-align: center;
     font-size: 17px;
