@@ -1677,8 +1677,8 @@ footer {
 
 .footer-social-inst::before {
     content: "\1f4f7";
-    top: 10px;
-    left: 15px;
+	top: 11px;
+    left: 14px;
 }
 
 .footer-social-btn:hover,
