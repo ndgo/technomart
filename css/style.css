@@ -30,6 +30,10 @@ figure {
     padding: 0;
 }
 
+a:focus {
+    outline: none;
+}
+
 figure {
     line-height: 0;
 }
